@@ -88,7 +88,7 @@ async function fetchArxivPapers(query) {
 // ✅ التحليل السياقي الحقيقي باستخدام Hugging Face (مجانًا!)
 async function rankBySemanticSimilarity(papers, query) {
   const API_URL = "https://api-inference.huggingface.co/models/sentence-transformers/all-MiniLM-L6-v2";
-  const API_KEY = "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"; // ← ستحصل عليه لاحقًا
+  const API_KEY = "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"; // ← ستحصل عليه لاحقًا
 
   const payload = {
     inputs: {
